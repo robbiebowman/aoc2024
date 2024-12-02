@@ -25,5 +25,5 @@ if __name__ == "__main__":
     first_location_codes = [int(x[0]) for x in data]
     second_location_codes = [int(x[1]) for x in data]
     solution1, solution2 = solve(first_location_codes, second_location_codes)
-    print(f"Part 1: {solution1}")
-    print(f"Part 2: {solution2}")
+    print(f"Part 1: {solution1}") # 1110981
+    print(f"Part 2: {solution2}") # 24869388
